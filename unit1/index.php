@@ -6,11 +6,13 @@
 <body>
 
 <?php
-if (!date('H:i:s',time())>=date('H:i:s',mktime(3,0,0))&&!date('H:i:s',time())<date('H:i:s',mktime(11,0,0))) {
+if (!(date('H:i:s',time())>=date('H:i:s',mktime(3,0,0))&&date('H:i:s',time())<date('H:i:s',mktime(11,0,0)))) {
     echo "Привіт, світ!";
 } else {
     echo "Добрий ранок, світ!";
 }
+echo '<br>';
+echo date('H:i:s',time());
 ?>
 
 </body>
