@@ -14,6 +14,13 @@
 
         <?php
         $upload_dir = "upload";
+        
+        if(!file_exists($upload_dir)){
+            if (!mkdir($upload_dir, 0755, true)) {
+                die('Не вдалось створити папку Upload...');
+            }
+        }
+        
         if (isset($_FILES['filename'])) {
             $filename = $_FILES['filename']['name'];
             $tmp_filename = $_FILES['filename']['tmp_name'];
