@@ -1,5 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Classes;
+
+use Interfaces\IEmployee;
+
 class Employee implements IEmployee {
 
     private string $name;

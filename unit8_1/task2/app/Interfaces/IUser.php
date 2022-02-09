@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Interfaces;
+
 interface IUser {
 
     public function getName(): string;
