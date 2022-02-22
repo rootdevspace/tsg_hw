@@ -1,0 +1,43 @@
+.sku {
+    color: grey;
+}
+
+.product {
+    border: dotted 1px gray;
+    margin:20px;
+    padding: 20px;
+}
+
+.productFloat{
+    float: left;
+    margin-right: 20px;
+}
+
+.productAddLables{
+    width: 7em;
+}
+
+.price {
+    color: red;
+    font-size: 22px;
+}
+
+.customer {
+    border: dotted 1px azure;
+    margin:20px;
+    padding: 20px;
+    background-color: floralwhite;
+}
+
+.customer:hover {
+    background-color: aliceblue;
+}
+
+.customerText{
+    color: brown;
+}
+
+.notice{
+    color: red;
+    font-weight: bold;
+}
